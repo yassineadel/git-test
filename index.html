@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+
+
+    .main-container{
+      border-radius: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(212, 45%, 89%);
+      height: 100vh;
+      width: 100vh;
+    }
+
+    .container{
+      border-radius: 5%;
+      background-color: whitesmoke;
+      height: 50%;
+      width: 50%;
+      display:grid;
+      grid-template-rows: 2fr 1fr;
+    }
+
+    img{
+      border-radius: 5%;
+      height: 30vh;
+    }
+
+    .qr{
+      display: flex;
+      justify-content: center;
+      align-items: center ;
+    }
+
+    .text{
+      text-align: center;
+      font-size: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main-container">
+     <div class="container">
+        <div class="qr"><img src="./images/image-qr-code.png" alt="qr code"></div>
+        <div class="text"><p><span style="font-weight: bold;">Improve your front-end skills by building projects</span><br>  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+          </p></div>
+     </div>
+  </div>
+  
+</body>
+</html>
+
+<!--Improve your front-end skills by building projects
+
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yassine</a>.
+  </div>
